@@ -6,7 +6,7 @@ from tkinter import messagebox
 pygame.init()
 es=pygame.mixer.Sound("eating.wav")
 cs=pygame.mixer.Sound("Dying Robot-SoundBible.com-1721415199.wav")
-music=pygame.mixer.music.load("Snake Runner (Soundtrack) (128  kbps).mp3")
+music=pygame.mixer.music.load("music.mp3")
 pygame.mixer.music.play(-1)
 class cube (object):
     rows=20
